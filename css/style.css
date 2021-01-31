@@ -1,0 +1,73 @@
+body{
+    background: url(/images/background.jpg) center no-repeat;
+    background-size: cover;
+    height: 98.4vh;
+    width: 98vw;    
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    color: white;
+}
+
+h1{
+    font-size: 10vh;
+    margin: 3.5px;
+}
+
+a{
+    color: rgb(185, 185, 185);
+}
+
+#container{
+    padding: 20px 20px 30px;
+    background:  rgba(39, 39, 56, 0.5);
+    box-shadow: 15px 15px  10px rgba(20, 20, 26, 1);
+    margin-bottom: 4vh;
+    border-radius: 1vw;
+}
+
+input{
+    display: block;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    height: 3vh;
+    width: 30vw;
+    border-radius: 2vh;
+
+}
+
+input[type="email"],input[type="password"] {
+    background: rgb(63, 63, 77);
+    color: white;
+    font-size: 2.5vh;
+    padding: 2vh;
+}
+
+input[type="submit"]{
+    height: 5vh;
+    width: 10vw;
+}
+
+@media (max-width: 1024px){
+    input{
+        height: 4vh;
+        width: 70vw;
+        border-radius: 2vh;
+    }
+
+    input[type="submit"]{
+        height: 5vh;
+        width: 35vw;
+    }
+
+    #container{
+        padding: 20px 20px 30px ;
+    }    
+
+}
+
+
+
