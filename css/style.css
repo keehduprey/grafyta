@@ -49,6 +49,7 @@ input[type="email"],input[type="password"] {
 input[type="submit"]{
     height: 5vh;
     width: 10vw;
+    background: white;
 }
 
 @media (max-width: 1024px){
