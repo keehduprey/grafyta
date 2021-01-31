@@ -1,5 +1,5 @@
 body{
-    background: url(/images/background.jpg) center no-repeat;
+    background: url(../images/background.jpg) center no-repeat;
     background-size: cover;
     height: 98.4vh;
     width: 98vw;    
